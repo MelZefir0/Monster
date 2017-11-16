@@ -1,0 +1,237 @@
+body {
+  background: url(http://cs.astronomy.com/cfs-file.ashx/__key/telligent-evolution-components-attachments/13-74-00-00-00-47-61-22/ngc6960_2D00_bobFranke.jpg) no-repeat;
+  background-size: cover;
+ 
+}
+
+.hidey{
+    display: none;
+}
+
+.draggable:hover{
+     cursor: pointer;   
+  }
+
+#cheese0{
+    z-index: 2;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    height: 90px; 
+    width: 90px;
+    margin: 10px;
+    /*border-left: 100px solid #ffb31a;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    overflow: hidden;*/
+}
+
+#cheese1{
+    z-index: 2;
+    position:absolute;
+    top:100px;
+    left: 200px;
+    height: 85px; 
+    width: 85px;
+    margin: 10px;
+    /*border-top:100px solid #ffcc66;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;*/
+}
+
+#cheese2{
+    z-index: 2;
+    position:absolute;
+    top: 100px;
+    left: 350px;
+    height: 80px; 
+    width: 80px;
+    margin: 10px;
+    /*border-left: 100px solid #f7bf76;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; */
+}
+
+#cheese3{
+    z-index: 2;
+    position:absolute;
+    top: 30px;
+    left: 400px;
+    height: 70px; 
+    width: 70px;
+    margin: 10px;
+    /*border-right: 100px solid #fff3e5;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; */
+}
+
+#cheese4{
+    z-index: 2;
+    position:absolute;
+    top: 200px;
+    left: 150px;
+    height: 90px; 
+    width: 90px;
+    margin: 10px;
+    /*border-left: 100px solid #ffb31a;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; */
+}
+
+#cheese5{
+    z-index: 2;
+    position:absolute;
+    top: 250px;
+    left: 300px;
+    height: 80px; 
+    width: 80px;
+    margin: 10px;
+    /*border-right: 100px solid #ffb31a;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; */
+}
+
+#cheese6{
+    z-index: 2;
+    position:absolute;
+    top: 370px;
+    left: 150px;
+    height: 90px; 
+    width: 90px;
+    margin: 10px;
+    /*border-top:100px solid #fff3e5;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent; */
+}
+
+#lump{
+       position: absolute;
+       left: 60%;
+       bottom: 0%;
+}
+#belly{
+     height: 200px;
+     width: 290px;
+     border-radius: 400% / 390%;
+     background: #efccae;
+     -moz-box-shadow: inset 0 -30px 20px -10px #91755b;
+    -webkit-box-shadow: inset 0 -30px 20px -10px #91755b;
+    box-shadow: inset 0 -30px 20px -10px #91755b;
+     padding: 0px;
+}
+#head{
+     position: absolute;
+     right: 15%;
+     bottom: 80%;
+     height:90px;
+     width:200px;
+     border-radius: 90px 90px 0 0;
+     background: #efccae;
+     -moz-box-shadow: inset 0 15px 20px 3px #91755b;
+    -webkit-box-shadow: inset 0 15px 20px 3px #91755b;
+    box-shadow: inset 0 15px 20px 3px #91755b;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#leftEye {
+     height: 60px;
+     width: 60px;
+     border-radius: 45px;
+     background: white;
+     float: left;
+     border-style: solid;
+     border-width: 1px;
+}
+
+#leftPupil{
+   position: absolute;
+   left: 8%;
+   background-color: #222;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: 4px solid #222;
+   box-shadow: inset 10px 0px #999, inset 0px 0px 1px 1px #999;
+   -moz-box-shadow: inset 0px 16px #999, inset 0px 0px 1px 1px #999;
+}
+
+#leftEyelid {
+     z-index: 1;
+     left: -2%;
+     top: 34%;
+     position: absolute;
+     height: 35px;
+     width: 70px;
+     border-radius: 0px 80px;
+     background: #efccae;
+    -moz-box-shadow: inset 0 -15px 20px -10px #91755b;
+    -webkit-box-shadow: inset 0 -15px 20px -10px #91755b;
+    box-shadow: inset 0 -15px 20px -10px #91755b;
+}
+#rightEye{
+     height: 60px;
+     width: 60px;
+     border-radius: 45px;
+     background: white;
+     position: relative;
+     float: right;
+     border-style: solid;
+     border-width: 1px;
+}
+
+#rightPupil{
+    top: 0%;
+    right: 9%;
+    position: absolute;
+    background-color: #222;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #222;
+    box-shadow: inset 10px 0px #999, inset 0px 0px 1px 1px #999;
+   -moz-box-shadow: inset 0px 16px #999, inset 0px 0px 1px 1px #999;
+}
+
+#rightEyelid {
+     z-index: 1;
+     left: -12%;
+     top: 50%;
+     position: relative;
+     height: 35px;
+     width: 70px;
+     border-radius: 80px 0px;
+     background: #efccae;
+    -moz-box-shadow: inset 0 -15px 20px -10px #91755b;
+    -webkit-box-shadow: inset 0 -15px 20px -10px #91755b;
+    box-shadow: inset 0 -15px 20px -10px #91755b;
+}
+#mouth {
+    z-index: 1;
+    top: 90%;
+    left: -130%;
+    position: absolute;
+    background-color: black;
+    background-color: #efccae;
+    width: 100px;
+    height: 70px;
+    border-radius: 90%;
+    border: 0px solid;
+    box-shadow: inset 0px 16px #000000, inset 0px 16px 0px 9px #000000;
+    -moz-box-shadow: inset 0px 16px #000000, inset 0px 16px 1px 1px #000000;
+}
+
+#chin
+{
+     left: -25%;
+     top: 43%;
+     position: relative;
+     right: 15%;
+     bottom: 80%;
+     height: 70px;
+     width: 150px;
+     border-radius: 90px 90px 0 0;
+     background: #efccae;
+}
+
+
+ 
